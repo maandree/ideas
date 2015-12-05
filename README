@@ -1,0 +1,55 @@
+at-random
+	Similar to at, cron, and sleep, but with
+	a random amount of time. It should be
+	possible to select random disitribution
+	and parameters. For example normal
+	(Gaussian) disitribution with a specified
+	expectation and a specified standard
+	deviation.
+
+pnf
+	Plain-text News Feed, like RSS and Atom,
+	but in plain-text. So that it is easy to
+	write, easy to read, and easy to parse.
+
+kmn
+	Kill Me Now, logout everywhere. This is
+	useful on a public machine. You may forget
+	that you are also login on a TTY, (this
+	happens,) and you would not want someone
+	to find your TTY session (this happens
+	too.)
+
+(kpasswd + libpassphrase)
+	kpasswd needs to be patched to use
+	libpassphrase.
+	Of course, everything should use
+	libpassphrase, but kpasswd is extra
+	important.
+
+mktree
+	find | mktree # = tree
+	tree | mktree --untree # = find
+	It should be possible to select indent
+	and another delimiter than /.
+
+unod
+	Convert output from od (and similar
+	data) to raw form.
+
+vttrans
+	A pts(4)-based and a pipe-based filter for
+	translating unsupported (by the TTY) symbols
+	to supported symbols. Too few, even important,
+	programs restrict themself.
+
+bus-dbus
+	It is possible to make programs using dbus to
+	instead use bus, without modifying those programs?
+
+libescape
+	Parse ANSI escape codes.
+	Generate ANSI escape codes, primarily
+	set of macros to make strings mroe readble
+	for those not too familiar with escape codes.
+
