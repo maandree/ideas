@@ -53,3 +53,19 @@ libescape
 	set of macros to make strings mroe readble
 	for those not too familiar with escape codes.
 
+chave
+	For use i C code, in combination with gpp or
+	similar.
+	In one mode:
+	  For everything #include lines from stdin that
+	  does not use macros and uses < >. Determine
+	  if the file exists. If it does not exist,
+	  clear the line. At the end of it all, without
+	  causing havoc on the line numbers, define
+	  HAVE_H_* for all found header files.
+	In another mode:
+	  Pipe through cpp, print the output, but then
+	  also, without causing havoc on the line numbers,
+	  define HAVE_FUN_* and HAVE_VAR_* for all
+	  function and variables.
+
