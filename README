@@ -69,3 +69,9 @@ chave
 	  define HAVE_FUN_* and HAVE_VAR_* for all
 	  function and variables.
 
+uvg
+	Unscalable Vector Graphics, an alternativ to
+	SVG that simple enought that images can be
+	written by hand. And does not use XML, but
+	a LISP-like syntax instead
+
