@@ -1,9 +1,9 @@
 at-random
 	Similar to at, cron, and sleep, but with
 	a random amount of time. It should be
-	possible to select random disitribution
+	possible to select random distribution
 	and parameters. For example normal
-	(Gaussian) disitribution with a specified
+	(Gaussian) distribution with a specified
 	expectation and a specified standard
 	deviation.
 
