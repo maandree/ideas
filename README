@@ -75,3 +75,30 @@ uvg
 	written by hand. And does not use XML, but
 	a LISP-like syntax instead
 
+numgroup
+	$ numgroup --offset 1 --size 10 << EOF
+	1
+	0.5
+	1.5
+	10
+	25
+	20
+	EOF
+	 1 - 11
+	-9 -  1
+	 1 - 11
+	 1 - 11
+	21 - 31
+	11 - 21
+
+karnaugh (since some distro's package manager is already called dnf)
+	karnaugh dnf
+		convert an expression to DNF
+	karnaugh dnf --map
+		convert a ternary map to DNF
+	karnaugh cnf
+		convert an expression to CNF
+	karnaugh cnf --map
+		convert a ternary map to CNF
+	Accept both x and Φ for in maps.
+
