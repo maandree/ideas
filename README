@@ -100,5 +100,5 @@ karnaugh (since some distro's package manager is already called dnf)
 		convert an expression to CNF
 	karnaugh cnf --map
 		convert a ternary map to CNF
-	Accept both x and Φ for in maps.
+	Accept both x and Φ for either in maps.
 
