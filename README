@@ -102,3 +102,16 @@ karnaugh (since some distro's package manager is already called dnf)
 		convert a ternary map to CNF
 	Accept both x and Φ for either in maps.
 
+C function attributes (for C compilers)
+	warn_nonnull(N)
+		Warn if parameter N is not NULL.
+		This is useful for snprintf.
+
+	__warn_nonzero__(...)
+		Warn if parameter N is not 0.
+		This is useful for snprintf.
+
+	__zero_iff_null__(N, M)
+		parameter N must be zero if
+		and only if parameter M is zero.
+
