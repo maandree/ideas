@@ -53,6 +53,17 @@ libescape
 	set of macros to make strings mroe readble
 	for those not too familiar with escape codes.
 
+reescape
+	Manipule escape sequences so that the output
+	looks the same but the escape sequences move
+	around.
+		--word  All coloured words must end with
+			a colour reset.
+		--line  All coloured lines ...
+		--page  All coloured pages ...
+	This is useful when a coloured text is output
+	to a pager.
+
 chave
 	For use i C code, in combination with gpp or
 	similar.
