@@ -126,3 +126,10 @@ C function attributes (for C compilers)
 		parameter N must be zero if
 		and only if parameter M is zero.
 
+process tree displayer with parent–child accumulative resource usage.
+	For example if A is a parent of B, and A's CPU usage is 10 %,
+	and B's CPU usage is 5 %, and B has not children. Thet it
+	should be displayed at A that its and its childrens and
+	grandchildrens total CPU usage is 15 %. And analogously for
+	different classes of RAM usage.
+
