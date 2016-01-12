@@ -133,3 +133,7 @@ process tree displayer with parent–child accumulative resource usage.
 	grandchildrens total CPU usage is 15 %. And analogously for
 	different classes of RAM usage.
 
+markdown to plain text
+	Convert from markdown to plain text, with opt-in for
+	ANSI escape codes.
+
