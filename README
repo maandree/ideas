@@ -7,6 +7,9 @@ at-random
 	expectation and a specified standard
 	deviation.
 
+long2short
+	Translate long options to short options.
+
 pnf
 	Plain-text News Feed, like RSS and Atom,
 	but in plain-text. So that it is easy to
